@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Quicksand:wght@300..700&display=swap");
+:root {
+  --primary-font: "Quicksand", sans-serif;
+  --secondary-font: "DM Sans", sans-serif;
+  --primary-color: #fa575d;
+  --secondary-color: #20212b;
+  --white-color: #ffffff;
+  --text-color: #898989;
+  --nutural-color: #fff3f3;
+}
+
+// Default CSS
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+@import '../scss/default';
+@import '../scss/section-title';
+@import '../scss/hero';
+@import '../scss/welcome';
+@import '../scss/about';
